@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevPortfolio | Portfólio Moderno</title>
+  <!-- Ícones (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Dev<span>Portfolio</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- SEÇÃO INICIAL (HERO) -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <h1>Olá, eu sou o <span>Erick</span></h1>
+        <h2 class="typewriter-box">
+          Eu sou <span id="typewriter"></span><span class="cursor">|</span>
+        </h2>
+        <p class="description">
+          Construo aplicações web modernas, responsivas e interativas utilizando HTML, CSS, JavaScript e tecnologias web modernas.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <div class="image-wrapper floating">
+          <img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+            alt="Perfil"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MIM -->
+  <section id="about" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Sobre <span>Mim</span></h2>
+
+      <div class="about-grid">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+            alt="Espaço de Trabalho"
+          />
+        </div>
+
+        <div class="about-text">
+          <h3>Minha Jornada</h3>
+          <p>
+            Desenvolvedor web apaixonado por criar experiências limpas e fáceis de usar. Sou especializado em transformar problemas complexos em designs simples, bonitos e intuitivos.
+          </p>
+          <p>
+            Seja construindo arquiteturas front-end escaláveis ou integrando APIs back-end robustas, busco sempre alta performance e capricho visual.
+          </p>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- HABILIDADES -->
+<section id="skills" class="section bg-alt">
+  <div class="container reveal">
+
+    <h2 class="section-title">
+      Minhas <span>Habilidades</span>
+    </h2>
+
+    <p class="skills-description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Voluptates, perspiciatis iure distinctio quidem aperiam 
+      necessitatibus omnis possimus excepturi amet quos rerum? 
+      Perferendis repellat natus saepe quaerat quibusdam neque recusandae optio?
+    </p>
+
+    <div class="skills-list">
+
+      <div class="skill-item">
+        <i class="fab fa-html5" style="color: #e34f26;"></i>
+        <span>HTML</span>
+      </div>
+
+      <div class="skill-item">
+        <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+        <span>CSS</span>
+      </div>
+
+      <div class="skill-item">
+        <i class="fab fa-js" style="color: #f7df1e;"></i>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="skill-item">
+        <i class="fab fa-node" style="color: #5fa04e;"></i>
+        <span>Node.js</span>
+      </div>
+
+      <div class="skill-item">
+        <i class="fab fa-react" style="color: #61dafb;"></i>
+        <span>React.js</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- PROJETOS -->
+  <section id="projects" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Projetos <span>em Destaque</span></h2>
+
+      <div class="cards-grid">
+        <!-- Projeto 1 -->
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80"
+            alt="Plataforma de E-Commerce"
+          />
+          <div class="project-body">
+            <h3>Plataforma de E-Commerce</h3>
+            <p>Loja virtual full-stack com carrinho de compras, integração de pagamento Stripe e painel administrativo.</p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Ver Demo</a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fab fa-github"></i> Código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+            alt="Gerenciador de Tarefas com IA"
+          />
+          <div class="project-body">
+            <h3>Gerenciador de Tarefas com IA</h3>
+            <p>Aplicativo de produtividade com painéis do tipo arrastar e soltar, sincronização em tempo real e priorização automatizada.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Firebase</span>
+              <span>CSS Grid</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Ver Demo</a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fab fa-github"></i> Código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80"
+            alt="Painel de Análise de Criptomoedas"
+          />
+          <div class="project-body">
+            <h3>Painel de Análise Cripto</h3>
+            <p>Rastreador de criptomoedas em tempo real com gráficos interativos, alertas de mercado e acompanhamento de portfólio.</p>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>API REST</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Ver Demo</a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fab fa-github"></i> Código</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTATO -->
+  <section id="contact" class="section">
+    <div class="container container-md reveal">
+      <h2 class="section-title">Entre em <span>Contato</span></h2>
+
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" required placeholder="Seu Nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required placeholder="seu@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" rows="4" required placeholder="Escreva sua mensagem..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+          </button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Vamos conversar sobre o seu projeto</h3>
+          <p>
+            Fique à vontade para entrar em contato para colaborações, oportunidades de freela ou apenas para um oi!
+          </p>
+
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <span>contact@devportfolio.com</span>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-phone"></i></div>
+              <span>+1 (555) 123-4567</span>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <span>Nova York, EUA</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> DevPortfolio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
